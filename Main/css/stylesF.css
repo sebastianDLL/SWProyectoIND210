@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: linear-gradient(to right, #99ccff, #ffffff); */
+    background-color: #7cb1ea ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
+
+.ENTROPICO {
+    background-image: linear-gradient(to bottom, #ffcccc, #ff9999);
+}
+
+.HOMEOSTATICO {
+    background-image: linear-gradient(to bottom, #ccffcc, #99ff99);
+}
+
+.INCERTIDUMBRE {
+    background-image: linear-gradient(to bottom, #ffffcc, #ffff99);
+}
+
+form {
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+}
+
+label,
+input,
+button {
+    display: block;
+    margin: 3px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    /* background-image: linear-gradient(to right, #3399ff, #66ccff); */
+    background-color: rgb(0, 123, 255); ;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

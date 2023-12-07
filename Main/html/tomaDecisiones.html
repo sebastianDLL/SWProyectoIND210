@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="../css/stylesD.css">
+    <title>Calculo-Credito</title>
+</head>
+
+<body>
+    <div id="botones">
+        <div id="atras">
+            <a href="../index.html"><img src="../img/atras.png" alt="Volver atrás"
+                    style="width: 40px; height: 40px;margin-top: 15px;"></a>
+        </div>
+        <!-- botón para guardar -->
+        <div id="guardar">
+            <button onclick="guardarComoImagen()"
+                style="background: none; border: none; cursor: pointer;">
+                <img src="../img/guardar.png" alt="Guardar" style="width: 40px; height: 40px; ">
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Calculadora de Intereses para credito del Proyecto</h2>
+
+        <label for="capital">Capital:</label>
+        <input type="number" id="capital" name="capital">
+        <label for="years">Años:</label>
+        <input type="number" id="years" name="years">
+        <button onclick="calculate()">Calcular</button>
+        <button onclick="criterios()">Ver opciones de decisión</button>
+
+        <table id="interestTable">
+            <tr>
+                <th>Opciones de decisión</th>
+                <th>10%</th>
+                <th>12.5%</th>
+                <th>15%</th>
+            </tr>
+            <tr>
+                <td>Interés anual</td>
+                <td id="annualInterest10Compound1"></td>
+                <td id="annualInterest12Compound1"></td>
+                <td id="annualInterest15Compound1"></td>
+            </tr>
+            <tr>
+                <td>Interés anual capitalizable trimestral</td>
+                <td id="annualInterest10Compound4"></td>
+                <td id="annualInterest12Compound4"></td>
+                <td id="annualInterest15Compound4"></td>
+            </tr>
+            <tr>
+                <td>Interés anual capitalizable semestral</td>
+                <td id="annualInterest10Compound2"></td>
+                <td id="annualInterest12Compound2"></td>
+                <td id="annualInterest15Compound2"></td>
+            </tr>
+
+        </table>
+
+        <table id="decisionTable">
+            <tr>
+                <th>Criterio</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>Criterio Optimista</td>
+                <td id="optimista"></td>
+            </tr>
+            <tr>
+                <td>Criterio Pesimista</td>
+                <td id="pesimista"></td>
+            </tr>
+            <tr>
+                <td>Criterio Laplace</td>
+                <td id="laplace"></td>
+            </tr>
+        </table>
+
+        <p id="conclusion"></p>
+        <script src="/javascript/javascriptD.js"></script>
+
+</body>
+
+</html>

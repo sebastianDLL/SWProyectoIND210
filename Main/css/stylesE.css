@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 10px;
+    /* color: #fff; */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, #inputprobabilidad {
+    padding: 8px;
+    margin: 4px;
+    border: solid 1px #ccc;
+    background-color: #007BFF;
+    /* color: #fff; */
+}
+
+a {
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+button, #calcularButton, #guardarButton, #eliminarButton {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, #calcularButton:hover, #guardarButton:hover, #eliminarButton:hover {
+    background-color: #0056b3;
+}
+
+#proyectoForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.componente {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.componente label {
+    margin-bottom: 5px;
+}
+
+#calcularButton, #guardarButton, #eliminarButton {
+    margin-top: 20px;
+}
+
+#eliminarButton {
+    background-color: #f1300e;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#eliminarButton:hover {
+    background-color: #f0573c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.result {
+    background-color: #007BFF;
+    font-weight: bold;
+    color: white;
+}

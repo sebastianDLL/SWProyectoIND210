@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factibilidad</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="../css/stylesF.css">
+</head>
+
+<body>
+    <div>
+        <a href="../index.html"><img src="../img/atras.png" alt="Volver atrás" style="width: 40px; height: 40px; align-items: baseline;"></a>
+        <h1 style="text-align: center;;">Formulario de Proyecto</h1>
+    </div>
+
+    <form id="proyectoForm">
+        <label for="cantidadComponentes">Ingrese cantidad de componentes de su proyecto:</label>
+        <input type="number" id="cantidadComponentes" name="cantidadComponentes" min="1" required>
+
+        <button type="button" onclick="generarInputs()">Generar formulario</button>
+    </form>
+
+    <div id="resultados"></div>
+
+    <script src="../javascript/javascriptF.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:   #7cb1ea ;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+
+h1 {
+    color: #333;
+}
+
+label,
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #1a6ec8;
+    /* color: #fff; */
+    border: 1px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 370px;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#chart {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+#moda {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.container>div {
+    margin-bottom: 20px;
+}
+
+.volver-al-menu {
+    display: block;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 370px;
+    text-align: center;
+}
+
+.volver-al-menu:hover {
+    background-color: #0056b3;
+}
