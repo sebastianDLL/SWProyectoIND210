@@ -39,8 +39,8 @@ function calculate() {
                 label: 'Homeostasis',
                 data: data,
                 fill: false,
-                backgroundColor: 'rgb(255,255,255)',
-                borderColor: 'rgb(255,255,255)',
+                backgroundColor: 'rgb(0,0,255)',
+                borderColor: 'rgb(0,0,255)',
                 tension: 0.1
             }]
         }
@@ -128,7 +128,7 @@ function guardarDatos() {
                 label: 'Homeostasis',
                 data: data,
                 fill: false,
-                borderColor: 'rgb(255,255,255)',
+                borderColor: 'rgb(0,0,255)',
                 tension: 0.1
             }]
         }
@@ -141,7 +141,7 @@ function guardarDatos() {
             label: 'Homeostasis',
             data: data,
             fill: false,
-            borderColor: 'rgb(255,255,255)',
+            borderColor: 'rgb(0,0,255)',
             tension: 0.1
         }]
     };
